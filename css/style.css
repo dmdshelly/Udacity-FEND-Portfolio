@@ -1,0 +1,102 @@
+/* WHOLE DOCUMENT */
+body {
+    font-family: Raleway, sans-serif;
+}  
+
+
+/* HEADER */
+.logo {
+    padding-top: 2%;
+}
+
+.heading {
+    text-align: right;
+}
+
+.name {
+    font-size: 300%;
+    margin-bottom: 0;
+}
+
+.job-title {
+    font-size: 130%;
+    margin-top: 0;
+}
+
+header {
+    color: #3b2009;
+}
+
+
+.horizontal-line {
+    height: 5px;
+    margin: 1% 0 2%;
+    background-color: #bcbbbb; 
+    background-clip: content-box;
+}
+
+
+/* MARQUIS PICTURE */
+.marquis-pic {
+    width: 100%;
+}
+
+
+/* FEATURED WORK SECTION */
+
+.featured-work {
+    color: #bcbbbb;
+    font-size: 150%;
+    line-height: 0;
+    padding-top: 2%;
+}
+
+.project h2 {
+    font-size: 200%;
+    margin-bottom: 0;
+}
+
+.project p {
+    margin-top: 3%;
+}
+
+.project-photo {
+    width: 100%;   
+}
+
+.resume {
+    padding-right: 3%;
+}
+
+.arcade-game {
+    padding: 0 2%;
+}
+
+.map {
+    padding-left: 3%;
+}
+
+.project {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+a:link {
+    text-decoration: none;
+    color: #3b2009;
+}
+
+a:visited {
+    color: #894c17;
+}
+
+a:hover {
+    color: #f8981c;
+}
+
+/* Keep "Neighborhood" from spilling off the side in iPad portrait mode. */
+@media only screen and (min-width: 768px) and (max-width: 850px) {
+    .project h2 {
+        font-size: 175%;
+    }
+}
